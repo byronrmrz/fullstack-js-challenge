@@ -1,4 +1,4 @@
-# 🚀Prueba Técnica Fullstack - Offymarket
+# Prueba Técnica Fullstack - Offymarket
 
 ##  Descripción
 Esta aplicación es una solución Full stack diseñada para visualizar la cantidad de posts de un usuario.  El sistema consume datos de una API externa, la cual es procesada en el Backend, para agrupar y contar los posts por autor por autor, y exponer los datos a una API REST propia.
@@ -25,8 +25,32 @@ El cliente web (Frontend) consume esta API local para presentar los resultados e
 
 Para ejecutar este proyecto localmente, necesitarás tener **Node.js** instalado. El proyecto está dividido en dos carpetas principales: `Backend` y `Frontend`.
 
-Primero, clona el repositorio:
+Primero, clona el repositorio.
 
+cd Backend
 ```bash
-git clone [https://github.com/byronrmrz/fullstack-js-challenge.git](https://github.com/byronrmrz/fullstack-js-challenge.git)
-cd fullstack-js-challenge
+npm install
+```
+
+Para iniciar el servidor en modo producción:
+```bash
+npm start
+```
+
+Para correr tests unitarios:
+```bash
+npm test
+```
+
+
+Levantar el Frontend
+```bash
+cd Frontend
+npm install
+```
+Iniciar el servidor de desarrollo
+```bash
+npm run dev
+```
+
+
