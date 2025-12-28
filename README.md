@@ -1,4 +1,4 @@
-# 🚀Prueba Técnica Fullstack - Offymarket
+# Prueba Técnica Fullstack - Offymarket
 
 ##  Descripción
 Esta aplicación es una solución Full stack diseñada para visualizar la cantidad de posts de un usuario.  El sistema consume datos de una API externa, la cual es procesada en el Backend, para agrupar y contar los posts por autor por autor, y exponer los datos a una API REST propia.
