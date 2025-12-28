@@ -1,16 +1,32 @@
-# React + Vite
+# 🚀Prueba Técnica Fullstack - Offymarket
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##  Descripción
+Esta aplicación es una solución Full stack diseñada para visualizar la cantidad de posts de un usuario.  El sistema consume datos de una API externa, la cual es procesada en el Backend, para agrupar y contar los posts por autor por autor, y exponer los datos a una API REST propia.
 
-Currently, two official plugins are available:
+El cliente web (Frontend) consume esta API local para presentar los resultados en un dashboard interactivo, permitiendo filtrar usuarios por nombre en tiempo real.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Tecnologías Utilizadas
 
-## React Compiler
+### Backend
+* **Node.js**: Entorno de ejecución.
+* **Express.js**: Framework para la API REST.
+* **Jest + Supertest**: Para pruebas unitarias y de integración.
+* **Cors**: Manejo de permisos de acceso.
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+### Frontend
+* **ReactJS (v18)**: Librería para la interfaz de usuario (Hooks).
+* **Vite**: Empaquetador y entorno de desarrollo rápido.
+* **TailwindCSS (v3)**: Framework de estilos utilitarios.
+* **JavaScript (ES6+)**: Lógica del cliente.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Instalación y Ejecución
+
+Para ejecutar este proyecto localmente, necesitarás tener **Node.js** instalado. El proyecto está dividido en dos carpetas principales: `Backend` y `Frontend`.
+
+Primero, clona el repositorio:
+
+```bash
+git clone [https://github.com/byronrmrz/fullstack-js-challenge.git](https://github.com/byronrmrz/fullstack-js-challenge.git)
+cd fullstack-js-challenge

@@ -12,8 +12,8 @@ const WelcomePage = ({ onEnter }) => {
             Bienvenido al Portal de <span className="text-offy-blue">Reportes</span>
           </h1>
           <p className="text-xl text-gray-600 mb-10 leading-relaxed">
-            Esta aplicación permite visualizar y filtrar la actividad de los usuarios
-            en tiempo real, conectándose directamente a nuestros servicios backend.
+            Esta aplicación permite visualizar y filtrar la cantidad de posts de los usuarios
+            en tiempo real.
           </p>
           
           <button 
