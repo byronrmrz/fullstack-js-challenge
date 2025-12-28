@@ -43,7 +43,7 @@ const DashboardPage = () => {
           
          {/* Barra de filtro */}
           <div className="flex flex-col md:flex-row justify-between items-center mb-8 gap-4">
-            <h2 className="text-2xl font-bold text-offy-dark">Usuarios Activos</h2>
+            <h2 className="text-2xl font-bold text-offy-dark">Usuarios</h2>
             
             <form onSubmit={handleSearch} className="flex w-full md:w-auto gap-2">
               <input 
@@ -72,7 +72,7 @@ const DashboardPage = () => {
               <table className="w-full text-left border-collapse">
                 <thead>
                   <tr className="bg-gray-100 text-offy-dark uppercase text-sm">
-                    <th className="py-4 px-6 rounded-l-lg">Usuario</th>
+                    <th className="py-4 px-6 rounded-l-lg">Nombre</th>
                     <th className="py-4 px-6 text-center rounded-r-lg">Posts Publicados</th>
                   </tr>
                 </thead>
