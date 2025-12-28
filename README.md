@@ -54,3 +54,12 @@ npm run dev
 ```
 
 
+## Sitio en vivo
+Para la visualización de este sitio en vivo se utilizo para:
+Backend: Render.com
+Frontend: netlify
+
+Url para ver el sitio:
+https://offymarket-frontend.netlify.app/
+
+
